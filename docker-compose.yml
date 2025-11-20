@@ -1,3 +1,5 @@
+version: "3.9"
+
 services:
   ejs-api:
     # Uncomment to build locally
@@ -8,6 +10,6 @@ services:
     container_name: ejs_signature_api
     ports:
       - "8001:8001"
-    # environment: # UNCOMMENT THIS LINE AND API_TOKEN TO ADD A PASSWORD
-    #   - API_TOKEN=test
+    environment: # UNCOMMENT THIS LINE AND API_TOKEN TO ADD A PASSWORD
+      API_TOKEN: "test"
     restart: unless-stopped
