@@ -26,7 +26,7 @@ WARNING: Ratelimit of 10 requests/sec (should be fine up to 1000+ active players
 The easiest way to host this service is with Docker (NOTE: Default password in the docker-compose.yml is "test")
 
 ```bash
-git clone https://github.com/kikkia/yt-cipher.git
+git clone https://github.com/TriniumHost/yt-cipher.git
 
 cd yt-cipher
 
